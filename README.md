@@ -13,6 +13,7 @@
 * ~/.bash_profile -> bash_profile
 * ~/.confit/i3status.conf -> i3status.conf
 * ~/.config/i3/config -> i3config
+* ~/.config/neofetch/config -> neofetch_config
 * ~/.config/ranger/rc.conf -> ranger.conf
 * ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings -> Preferences.sublime-settings
 * ~/.vimrc -> vimrc
