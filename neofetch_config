@@ -404,8 +404,8 @@ install_time_format="24h"
 # Example:
 # colors=(distro)      - Text is colored based on Distro colors.
 # colors=(4 6 1 8 8 6) - Text is colored in the order above.
-# colors=(1 1 7 1 1 7)
-colors=(distro)
+colors=(1 1 7 1 1 7)
+#colors=(distro)
 
 
 # Text Options
@@ -589,8 +589,8 @@ ascii_distro="auto"
 # Example:
 # ascii_colors=(distro)      - Ascii is colored based on Distro colors.
 # ascii_colors=(4 6 1 8 8 6) - Ascii is colored using these colors.
-ascii_colors=(distro)
-# ascii_colors=(1 1 1 1 1 1)
+# ascii_colors=(distro)
+ascii_colors=(1 1 1 1 1 1)
 
 # Bold ascii logo
 # Whether or not to bold the ascii logo.

@@ -1,6 +1,6 @@
 ### Startup
 # Set Background
-exec --no-startup-id feh --bg-scale ~/media/images/wallpapers/klkpowerlines.png
+exec --no-startup-id feh --bg-scale ~/media/pictures/wallpapers/bg2a.png
 
 
 ### Variables
@@ -27,7 +27,7 @@ set $base0E #e1a3ee
 set $base0F #deaf8f
 
 # Application Launcher (Variable expansion not recursive, so no easy colours)
-set $menu dmenu_run -nb '#202020' -nf '#f5f5f5' -sb '#12cfc0' -sf '#f5f5f5' -fn "Noto Sans-8"
+set $menu dmenu_run -nb '#202020' -nf '#f5f5f5' -sb '#fb9fb1' -sf '#f5f5f5' -fn "Noto Sans-8"
 
 # Mod Key (Mod4 is Logo, Mod1 is Alt)
 set $mod Mod4
@@ -50,10 +50,10 @@ new_window normal
 
 # Main Window Colours
 #class                  border   bg       text    indctr  childbdr
-client.focused          $base01  $base01  $base07 $base0C $base01
-client.focused_inactive $base01  $base01  $base03 $base0C $base01
-client.unfocused        $base01  $base01  $base03 $base0C $base01
-client.urgent           $base01  $base01  $base0C $base0C $base01
+client.focused          $base01  $base01  $base07 $base08 $base01
+client.focused_inactive $base01  $base01  $base03 $base08 $base01
+client.unfocused        $base01  $base01  $base03 $base08 $base01
+client.urgent           $base01  $base01  $base08 $base08 $base01
 
 
 ### Status Bar
@@ -82,10 +82,10 @@ bar {
         separator  $base04
 
         #class             border   bg       text
-        focused_workspace  $base01  $base01  $base07
+        focused_workspace  $base01  $base08  $base07
         active_workspace   $base01  $base01  $base03
         inactive_workspace $base01  $base01  $base03
-        urgent_workspace   $base01  $base01  $base0C
+        urgent_workspace   $base01  $base01  $base08
     }
 }
 

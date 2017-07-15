@@ -1,11 +1,11 @@
 {
 	"always_show_minimap_viewport": true,
-	"use_minimap_as_scrollbar": true,
 	"color_scheme": "Packages/Base16/Themes/base16-chalk.tmTheme",
 	"font_face": "Inconsolata",
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"theme": "Toxin.sublime-theme"
+	"theme": "Spacegray Eighties.sublime-theme",
+	"use_minimap_as_scrollbar": true
 }
