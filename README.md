@@ -9,6 +9,7 @@
 # Symbolic Links:
 
 * ~/bin/lockscript.sh -> lockscript.sh
+* ~/bin/screenshot.sh -> screenshot.sh
 * ~/.bashrc -> bashrc
 * ~/.bash_profile -> bash_profile
 * ~/.confit/i3status.conf -> i3status.conf

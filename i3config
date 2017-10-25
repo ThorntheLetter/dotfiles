@@ -110,7 +110,11 @@ bindsym $mod+d exec --no-startup-id $menu
 bindsym $mod+Shift+q kill
 
 # Lockscreen
-bindsym $mod+shift+Escape exec ~/bin/lockscript.sh
+bindsym $mod+Shift+Escape exec ~/bin/lockscript.sh
+
+# Screenshots
+bindsym --release Print exec ~/bin/screenshot.sh
+bindsym --release Shift+Print exec ~/bin/screenshot.sh -s
 
 
 ## Moving Around
@@ -223,6 +227,8 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 20
 # Decrease Brightness
 bindsym XF86MonBrightnessDown exec xbacklight -dec 20
 
+bindsym PrintScrn exec scrot
+
 
 ### Resizing Mode
 # Left Decreases, Right Increases Width
@@ -230,16 +236,16 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 20
 
 mode "resize" {
     # Vim Keys
-    bindsym $left resize shrink width 10 px or 10 ppt
-    bindsym $down resize grow height 10 px or 10 ppt
-    bindsym $up resize shrink height 10 px or 10 ppt
-    bindsym $right resize grow width 10 px or 10 ppt
+    bindsym $left resize shrink width 5 px or 5 ppt
+    bindsym $down resize grow height 5 px or 5 ppt
+    bindsym $up resize shrink height 5 px or 5 ppt
+    bindsym $right resize grow width 5 px or 5 ppt
 
     # Arrow Keys
-    bindsym Left resize shrink width 10 px or 10 ppt
-    bindsym Down resize grow height 10 px or 10 ppt
-    bindsym Up resize shrink height 10 px or 10 ppt
-    bindsym Right resize grow width 10 px or 10 ppt
+    bindsym Left resize shrink width 5 px or 5 ppt
+    bindsym Down resize grow height 5 px or 5 ppt
+    bindsym Up resize shrink height 5 px or 5 ppt
+    bindsym Right resize grow width 5 px or 5 ppt
 
     # Exit Resize Mode
     bindsym Return mode "default"

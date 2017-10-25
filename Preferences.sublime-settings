@@ -2,10 +2,15 @@
 	"always_show_minimap_viewport": true,
 	"color_scheme": "Packages/Base16/Themes/base16-chalk.tmTheme",
 	"font_face": "Inconsolata",
+	"font_size": 9,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+	"tab_size": 2,
 	"theme": "Spacegray Eighties.sublime-theme",
-	"use_minimap_as_scrollbar": true
+	"translate_tabs_to_spaces": true,
+	"use_minimap_as_scrollbar": true,
+	"word_wrap": true,
+	"wrap_width": 80
 }
