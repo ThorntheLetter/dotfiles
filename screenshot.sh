@@ -6,10 +6,15 @@ file="$directory/$time.png"
 
 # screenshot stuff
 
-while getopts "s" opt; do
+while getopts "su" opt; do
   case $opt in
     s)
       scrot -s $file
+      xclip -t image/png -selection clipboard -i $file
+      exit
+      ;;
+    u)
+      scrot -u $file
       xclip -t image/png -selection clipboard -i $file
       exit
       ;;

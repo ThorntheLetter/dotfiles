@@ -1,16 +1,24 @@
 {
+	"added_words":
+	[
+		"Kachelmeier"
+	],
 	"always_show_minimap_viewport": true,
-	"color_scheme": "Packages/Base16/Themes/base16-chalk.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/base16-chalk (SL).tmTheme",
 	"font_face": "Inconsolata",
-	"font_size": 9,
+	"font_size": 8,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"tab_size": 2,
-	"theme": "Spacegray Eighties.sublime-theme",
+	"ignored_words":
+	[
+		"appearence"
+	],
+	"tab_size": 4,
+	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"use_minimap_as_scrollbar": true,
-	"word_wrap": true,
+	"word_wrap": "true",
 	"wrap_width": 80
 }

@@ -62,7 +62,7 @@ bar {
     output LVDS1
 
     # Font (Awesome for Icons)
-    font pango:Noto Sans, Awesome 8
+    font pango:Noto Sans, FontAwesome5FreeSolid 8
 
     # Position on Screen
     position top
@@ -113,8 +113,9 @@ bindsym $mod+Shift+q kill
 bindsym $mod+Shift+Escape exec ~/bin/lockscript.sh
 
 # Screenshots
-bindsym --release Print exec ~/bin/screenshot.sh
-bindsym --release Shift+Print exec ~/bin/screenshot.sh -s
+bindsym --release Print exec --no-startup-id ~/bin/screenshot.sh
+bindsym --release Shift+Print exec --no-startup-id ~/bin/screenshot.sh -s
+bindsym --release Mod4+Shift+Print exec --no-startup-id ~/bin/screenshot.sh -u
 
 
 ## Moving Around
@@ -227,25 +228,22 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 20
 # Decrease Brightness
 bindsym XF86MonBrightnessDown exec xbacklight -dec 20
 
-bindsym PrintScrn exec scrot
-
-
 ### Resizing Mode
 # Left Decreases, Right Increases Width
 # Up Decreases, Down Increases Hight
 
 mode "resize" {
     # Vim Keys
-    bindsym $left resize shrink width 5 px or 5 ppt
-    bindsym $down resize grow height 5 px or 5 ppt
-    bindsym $up resize shrink height 5 px or 5 ppt
-    bindsym $right resize grow width 5 px or 5 ppt
+    bindsym $left resize shrink width 1 px or 1 ppt
+    bindsym $down resize grow height 1 px or 1 ppt
+    bindsym $up resize shrink height 1 px or 1 ppt
+    bindsym $right resize grow width 1 px or 1 ppt
 
     # Arrow Keys
-    bindsym Left resize shrink width 5 px or 5 ppt
-    bindsym Down resize grow height 5 px or 5 ppt
-    bindsym Up resize shrink height 5 px or 5 ppt
-    bindsym Right resize grow width 5 px or 5 ppt
+    bindsym Left resize shrink width 1 px or 1 ppt
+    bindsym Down resize grow height 1 px or 1 ppt
+    bindsym Up resize shrink height 1 px or 1 ppt
+    bindsym Right resize grow width 1 px or 1 ppt
 
     # Exit Resize Mode
     bindsym Return mode "default"
