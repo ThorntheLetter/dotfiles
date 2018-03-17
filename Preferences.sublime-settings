@@ -2,19 +2,18 @@
 	"added_words":
 	[
 		"Kachelmeier"
+		"Zenin"
+		"Puckette"
+		"Mallat"
+		"colour"
+		"base16"
+		"Clojure"
+		"Idris"
 	],
-	"always_show_minimap_viewport": true,
+	"always_show_minimap_viewport":1 true,
 	"color_scheme": "Packages/User/SublimeLinter/base16-chalk (SL).tmTheme",
 	"font_face": "Inconsolata",
 	"font_size": 8,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"ignored_words":
-	[
-		"appearence"
-	],
 	"tab_size": 4,
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,

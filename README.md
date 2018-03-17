@@ -3,7 +3,7 @@
 * Colour Scheme: [Base16-Chalk](https://github.com/chriskempson/base16)
 * Fonts Used: [Various Noto](http://www.google.com/get/noto/), [Font Awesome](http://fontawesome.io/), [Inconsolata](https://fonts.google.com/specimen/Inconsolata)
 * GTK Theme: [Arc-Grey-Darker](https://github.com/eti0/arc-grey-theme)
-* Sublime Theme: [Toxin](https://github.com/p3lim/sublime-toxin)
+* Sublime Theme: [Adaptive](https://www.sublimetext.com/blog/articles/the-adaptive-theme)
 
 
 # Symbolic Links:
